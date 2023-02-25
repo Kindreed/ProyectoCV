@@ -4,5 +4,92 @@
     box-sizing: border-box;
 }
 body{
+    font-size: 16px;
     font-family: 'Roboto', sans-serif;
+    position: relative;
+    vertical-align: baseline;
+    background-color:deepskyblue;
+}
+.cv_navbar{
+    background-color: rgb(255, 255, 255,0.7)!important;
+}
+.Informacion,.habilidad,.educacion,.lenguajes,.contacto,.formulario-de-contacto{
+    padding: 40px;
+    min-height: 330px;
+}
+.Informacion,.habilidad,.educacion,.lenguajes,.contacto,.formulario-de-contacto{
+    margin-top: 30px;
+}
+#home{
+    text-align: center;
+    min-height: 400px;
+    overflow: hidden;
+    position: relative;
+    padding-top: 160px;
+    padding-bottom: 140px;
+}
+#home img{
+    display: inline-block !important;
+    border: 3px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+#home h2{
+    padding: 20px;
+}
+.Informacion{
+    background-color: white;
+}
+.habilidad{
+    background: #3366cc;
+    color: #f5f5f5;
+}
+.habilidad ul{
+    list-style: none;
+    text-align: left;
+	display: inline-block;
+}
+.educacion{
+    background: #3366cc;
+    color: #f5f5f5;
+}
+.educacion.edcucacion-content{
+    padding: 14px;
+}
+.educacion span{
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.lenguajes{
+    background: white;
+    margin-top: 27px;
+}
+.lenguajes ul{
+    padding: 10px;
+    text-align: left;
+	display: inline-block;
+}
+.lenguajes ul li{
+    padding-bottom: 6px;
+}
+.contacto{
+    background: white;
+    text-align: left;
+	display: inline-block;
+}
+.formulario-de-contacto{
+    background: #3366cc;
+    color: #f5f5f5;
+}
+.form{
+    background-color: #ffff;
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding:3.5em 1.5em ;
+}
+
+.form-input{
+
 }
